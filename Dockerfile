@@ -8,4 +8,4 @@ ONBUILD COPY . /home/leonel/Desktop/cloneAPI/vamosversedesta
 EXPOSE 5000
 
 #run the application
-CMD ["php", "-S", "127.0.0.1:5000", "-t", "."]
+CMD ["php", "-S", "8080:5000", "-t", "."]
